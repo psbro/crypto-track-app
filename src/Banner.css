@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.banner{
+    background-image: url("../src/images/banner2.jpg");
+}
+
+.banner_content{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    justify-content: space-around;
+}
+
+.tag_line{
+    display: flex;
+    height: 40%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.tag_line h2{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+}
+
+.tag_line p{
+    color: darkgray;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}

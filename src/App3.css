@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;800&family=Mulish:wght@200&family=Poppins:ital,wght@0,600;1,500&family=Roboto:ital,wght@1,300&family=Spline+Sans:wght@300;400&display=swap');
+
+* {
+  margin         : 0;
+  padding        : 0;
+  box-sizing     : border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color          : gold;
+}

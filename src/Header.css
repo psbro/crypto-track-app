@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,500&family=Roboto:ital,wght@1,300&family=Spline+Sans:wght@300;400&display=swap');
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width           : 90vw;
+    min-height      : 13vh;
+    background-color: "#14161a";
+    display         : flex;
+    justify-content : space-around;
+    flex-wrap       : wrap;
+    color           : #fff;
+    font-size       : 3rem;
+    box-shadow      : 0px 0px 10px 0px #14161a;
+
+}
+
+.header .box1 {
+    width : 300px;
+    height: 60px;
+
+    margin-top     : auto;
+    margin-bottom  : auto;
+    display        : flex;
+    justify-content: center;
+    text-align     : center;
+}
+
+.header .box1 {
+    color      : gold;
+    font-weight: bold;
+    cursor     : pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size  : 2.3rem;
+}
+
+.header .box2 {
+    width : 130px;
+    height: 50px;
+
+    margin-top     : auto;
+    margin-bottom  : auto;
+    font-family    : 'Montserrat', sans-serif;
+    font-size      : 2.3rem;
+    display        : flex;
+    justify-content: center;
+    text-align     : center;
+}
+
+.header .box2 select {
+    width           : 70px;
+    height          : 30px;
+    background-color: #14161a;
+    color           : #fff;
+    margin-top      : auto;
+    margin-bottom   : auto;
+    font-family     : 'Montserrat', sans-serif;
+    font-size       : 1rem;
+    border          : none;
+    outline         : none;
+    border          : 1px solid #fff;
+    border-radius   : 10px;
+    cursor          : pointer;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container1{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transition: 0.2s ease-in-out;
+    overflow-x: hidden;
+}
+
+.sidebar{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    border-right: 2px solid gray;
+}
+
+.heading{
+    font-weight: lighter;
+    margin-bottom: 20;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+}
+
+.describe{
+    font-size: 10px;
+}
+
+.market_data{
+    align-self: start;
+    padding: 25px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.coins-if{
+    width: 80%;
+   
+}
+
+@media(max-width: 940px){
+    
+}
